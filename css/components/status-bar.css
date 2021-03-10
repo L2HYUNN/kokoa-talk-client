@@ -1,0 +1,29 @@
+.status-bar {
+  position: fixed;
+  top: 5px;
+  left: 0px;
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__left {
+  display: flex;
+  margin-left: 10px;
+}
+.status-bar__left span {
+  margin: 0px 5px;
+}
+.status-bar__center {
+  text-align: center;
+}
+.status-bar__right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.status-bar__right .fa-battery-quarter {
+  margin: 0px 5px;
+}
