@@ -1,0 +1,12 @@
+@import "animation.css";
+
+.splash-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  opacity: 0;
+  animation: fadeOutSplashScreen 7s ease-in-out forwards;
+}
