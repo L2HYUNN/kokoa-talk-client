@@ -1,3 +1,5 @@
+@import "animation.css";
+
 .status-bar {
   position: fixed;
   top: 5px;
@@ -26,4 +28,7 @@
 }
 .status-bar__right .fa-battery-quarter {
   margin: 0px 5px;
+}
+.status-bar__right .fa-bolt {
+  animation: fadeInOut 1s ease-in-out infinite alternate;
 }

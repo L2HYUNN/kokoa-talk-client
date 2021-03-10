@@ -1,0 +1,9 @@
+/* animation */
+@keyframes fadeInOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+  }
+}

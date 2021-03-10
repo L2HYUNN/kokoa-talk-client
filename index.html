@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Welcome to the AvatarTalk!</title>
+    <title>Welcome to the AvatarWorld!</title>
   </head>
   <body>
+    <img
+      class="background"
+      src="https://i.pinimg.com/564x/d0/40/30/d040301826e438bf1a7877b672934d63.jpg"
+    />
     <header class="status-bar">
       <div class="status-bar__column status-bar__left">
         <i class="fas fa-signal"></i>
@@ -23,10 +27,38 @@
         <i class="fas fa-bolt"></i>
       </div>
     </header>
+    <main class="screen-index">
+      <div class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to the AvatarWorld!</h1>
+        <span class="welcome-header__text">
+          If you have a AvatarWorld Account, log in with your email
+        </span>
+      </div>
+
+      <form action="#" method="GET" class="login-form">
+        <input
+          required
+          name="username"
+          type="text"
+          placeholder="Enter your Email"
+        />
+        <input
+          required
+          name="password"
+          type="password"
+          minlength="10"
+          placeholder="Password"
+        />
+        <input type="submit" value="Login" />
+        <a href="#">Find your AvatarWorld's avatar</a>
+      </form>
+    </main>
+
     <script
       src="https://kit.fontawesome.com/1159a9ad7b.js"
       crossorigin="anonymous"
     ></script>
     <script src="clock.js"></script>
+    <script src="event.js"></script>
   </body>
 </html>

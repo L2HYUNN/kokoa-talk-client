@@ -1,10 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 @import "reset.css";
+@import "animation.css";
 
 /* components */
 @import "components/status-bar.css";
 
+/* screen */
+@import "screen/index.css";
+
 body {
   font-family: "DotGothic16", sans-serif;
   margin: 0px 10px;
+  color: aliceblue;
+}
+.background {
+  width: 100vw;
+  height: 120vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
 }
