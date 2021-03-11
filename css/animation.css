@@ -45,10 +45,29 @@
     opacity: 1;
   }
   50% {
-    opacity: 0;
-    transform: translateY(20px);
+    opacity: 1;
   }
   100% {
-    opacity: 0;
+    transform: translateY(60px);
+    opacity: 1;
+  }
+}
+@keyframes hideStatusBarUP {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px);
+    opacity: 1;
+  }
+}
+@keyframes sizeUp {
+  0% {
+  }
+  100% {
+    transform: scale(2);
   }
 }

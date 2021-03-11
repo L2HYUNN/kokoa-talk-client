@@ -37,11 +37,11 @@
   margin-bottom: 10px;
 }
 .main-character__content:first-child {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
 }
 .main-character__content:nth-child(2) {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .main-character__content:nth-child(3) {
   margin: 15px 0px;
@@ -60,8 +60,9 @@
 }
 .main-character__content button {
   font-family: "DotGothic16", sans-serif;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 0.5px solid aliceblue;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid aliceblue;
   border-radius: 5px;
   padding: 4px;
   color: aliceblue;
@@ -105,11 +106,12 @@
   font-size: 5px;
 }
 .sub-character__content--left .sub-character__content:first-child {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 15px;
 }
 .sub-character__content--left .sub-character__content:nth-child(2) {
-  opacity: 0.5;
+  font-weight: 600;
+  opacity: 0.8;
 }
 .sub-character__content--left .sub-character__content:last-child {
   margin: 15px 0px;
@@ -120,6 +122,10 @@
 .sub-character__content--right .sub-character__content:first-child {
   margin-bottom: 10px;
 }
+.sub-character__content--right .sub-character__content:last-child {
+  font-weight: 600;
+  font-size: 13px;
+}
 .sub-character__content--right .sub-character__content:last-child i {
   color: #00b894;
 }
@@ -128,8 +134,9 @@
 }
 .sub-character__content button {
   font-family: "DotGothic16", sans-serif;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 0.5px solid aliceblue;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid aliceblue;
   border-radius: 5px;
   padding: 4px;
   margin-right: 3px;
@@ -139,8 +146,4 @@
   outline-color: rgba(255, 255, 255, 0);
   font-weight: bold;
   animation: fadeInOut 0.7s ease-in-out infinite alternate;
-}
-/* nav-bar */
-.nav-bar {
-  animation: hideStatusBarDown 2s ease-in-out forwards;
 }

@@ -1,0 +1,90 @@
+@import "animation.css";
+
+/* chat-character */
+.chat-character {
+  margin-top: 20px;
+}
+.chat-character__main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.chat-character__title {
+  margin-top: 10px;
+}
+.chat-character__picture img {
+  width: 80px;
+  height: 85px;
+  border-radius: 15px;
+  border: 2px solid aliceblue;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.chat-character__contents {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.chat-character__content--left {
+  margin-right: 20px;
+}
+.chat-character__content {
+  margin-bottom: 10px;
+  font-size: 5px;
+}
+.chat-character__content--left .chat-character__content:first-child {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.chat-character__content--left .chat-character__content:last-child {
+  border: 2px solid aliceblue;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 6px;
+  border-radius: 7px;
+  border-top-left-radius: 0px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px 0px;
+}
+
+.chat-character__content--right {
+  display: flex;
+  flex-direction: column;
+}
+.chat-character__content--right .chat-character__content:first-child {
+  margin-bottom: 10px;
+}
+.chat-character__content--right .chat-character__content:last-child {
+  font-weight: 600;
+  font-size: 13px;
+}
+.chat-character__content--right .chat-character__content:last-child i:hover {
+  will-change: auto;
+  animation: sizeUp 1s ease-in-out infinite alternate;
+}
+.chat-character__content--right .chat-character__content:last-child i {
+  color: #eb2f06;
+  margin-left: 10px;
+}
+.chat-character__content--right .chat-character__content:first-child button {
+  padding: 0px 20px;
+}
+.chat-character__content button {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  padding: 4px;
+  margin-right: 3px;
+  color: aliceblue;
+}
+.chat-character__content button:focus {
+  outline-color: rgba(255, 255, 255, 0);
+  font-weight: bold;
+  animation: fadeInOut 0.7s ease-in-out infinite alternate;
+}

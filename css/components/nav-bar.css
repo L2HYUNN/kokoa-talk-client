@@ -12,6 +12,9 @@
   border-top: none;
   background-color: rgba(99, 110, 113, 0.5);
 }
+.nav-bar_content {
+  z-index: 3;
+}
 .nav-bar_content:first-child {
   margin-left: 20px;
 }

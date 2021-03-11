@@ -1,0 +1,15 @@
+.ad-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 3px solid aliceblue;
+}
+.ad-bar span {
+  text-align: center;
+  width: 100vw;
+  height: 25px;
+  padding-top: 5px;
+  font-weight: 600;
+  animation: fadeInOut 1s linear infinite alternate;
+}

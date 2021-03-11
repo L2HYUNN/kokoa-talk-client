@@ -14,6 +14,7 @@
 @import "screen/splash-screen.css";
 @import "screen/music.css";
 @import "screen/character.css";
+@import "screen/chats.css";
 
 body {
   font-family: "DotGothic16", sans-serif;
@@ -39,6 +40,14 @@ body {
 }
 .background__character {
   width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.background__chats {
+  width: 150vw;
   height: 100vh;
   position: fixed;
   z-index: -1;
