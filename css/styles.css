@@ -5,11 +5,14 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/index-bar.css";
+@import "components/main-bar.css";
+@import "components/ad-bar.css";
 
 /* screen */
 @import "screen/index.css";
 @import "screen/splash-screen.css";
 @import "screen/music.css";
+@import "screen/character.css";
 
 body {
   font-family: "DotGothic16", sans-serif;
@@ -32,4 +35,15 @@ body {
   z-index: -1;
   top: 0;
   left: 0;
+}
+.background__character {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+a {
+  color: aliceblue;
 }

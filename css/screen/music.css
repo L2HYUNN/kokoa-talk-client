@@ -1,5 +1,7 @@
+@import "animation.css";
+
 /* media query */
-@media screen and (min-width: 501px) and {
+@media screen and (min-width: 501px) {
   body {
     display: none;
   }
@@ -54,11 +56,15 @@
 }
 .music-of-the-day__content button {
   font-family: "DotGothic16", sans-serif;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.1);
   border: 0.5px solid aliceblue;
   border-radius: 5px;
   padding: 4px;
   color: aliceblue;
+}
+.music-of-the-day__content button:focus {
+  outline-color: rgba(255, 255, 255, 0);
+  animation: fadeInOut 0.7s ease-in-out infinite alternate;
 }
 
 /* top-music */

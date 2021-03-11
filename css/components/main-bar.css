@@ -1,0 +1,16 @@
+/* main-bar */
+.main-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 27px;
+}
+
+.main-bar__right {
+  display: flex;
+  padding-top: 2px;
+}
+.main-bar__right i {
+  margin-left: 10px;
+}
