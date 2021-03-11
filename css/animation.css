@@ -40,3 +40,15 @@
     opacity: 0;
   }
 }
+@keyframes hideStatusBarDown {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
