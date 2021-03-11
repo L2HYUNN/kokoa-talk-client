@@ -13,12 +13,30 @@
   }
   20% {
     opacity: 0;
+    z-index: -10;
+  }
+  50% {
+    opacity: 0;
+    z-index: -10;
   }
   70% {
     opacity: 0;
+    z-index: -10;
   }
   100% {
     opacity: 0;
     z-index: -10;
+  }
+}
+@keyframes hideStatusBar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
   }
 }

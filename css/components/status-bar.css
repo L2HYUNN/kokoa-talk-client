@@ -32,3 +32,8 @@
 .status-bar__right .fa-bolt {
   animation: fadeInOut 1s ease-in-out infinite alternate;
 }
+
+/* status-bar--hidden */
+.status-bar--hidden {
+  animation: hideStatusBar 3s ease-in-out forwards;
+}

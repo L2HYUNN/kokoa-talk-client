@@ -1,0 +1,33 @@
+/* index-bar */
+.index-bar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+}
+.index-bar__column {
+  width: 33%;
+}
+.index-bar__left {
+  display: flex;
+  margin-left: 10px;
+}
+.index-bar__left i {
+  font-size: 32px;
+}
+
+.index-bar__center {
+  text-align: center;
+  font-size: 27px;
+}
+.index-bar__right {
+  display: flex;
+  padding-top: 5px;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.index-bar__right span {
+  font-size: 15px;
+  margin-right: 10px;
+}

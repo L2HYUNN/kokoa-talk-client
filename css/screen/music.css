@@ -1,0 +1,112 @@
+/* media query */
+@media screen and (min-width: 501px) and {
+  body {
+    display: none;
+  }
+}
+
+/* screen-music */
+.screen-music__content {
+  margin: 20px 0px;
+}
+.screen-music__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* .music-of-the-day */
+.music-of-the-day__main {
+  display: flex;
+}
+.music-of-the-day__picture img {
+  width: 140px;
+  height: 150px;
+  border-radius: 15px;
+  border: 2px solid aliceblue;
+}
+.music-of-the-day__contents {
+  margin-left: 20px;
+}
+.music-of-the-day__content {
+  margin-bottom: 10px;
+}
+.music-of-the-day__content:first-child {
+  font-weight: 400;
+}
+.music-of-the-day__content:nth-child(2) {
+  opacity: 0.5;
+}
+.music-of-the-day__content:nth-child(3) {
+  margin: 15px 0px;
+}
+.music-of-the-day__content:nth-child(3) i {
+  color: #fad390;
+}
+.music-of-the-day__content:nth-child(4) {
+  margin-bottom: 10px;
+}
+.music-of-the-day__content:last-child {
+  color: #eb2f06;
+}
+.music-of-the-day__content:last-child button {
+  padding: 0px 20px;
+}
+.music-of-the-day__content button {
+  font-family: "DotGothic16", sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.5px solid aliceblue;
+  border-radius: 5px;
+  padding: 4px;
+  color: aliceblue;
+}
+
+/* top-music */
+.top-music__contents {
+  display: flex;
+  width: 250px;
+  height: 190px;
+  overflow: scroll;
+}
+.top-music__content:not(:first-child) {
+  margin-left: 20px;
+}
+
+.top-music__content img {
+  width: 80px;
+  height: 150px;
+  border-radius: 4px;
+  border: 2px solid aliceblue;
+}
+.top-music__content .top-music__stars {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2px;
+  color: #fad390;
+}
+
+/* popular-musicians */
+.popular-musicians__main {
+  display: flex;
+}
+.popular-musicians__picture img {
+  width: 140px;
+  height: 150px;
+  border-radius: 15px;
+  border: 2px solid aliceblue;
+}
+.popular-musicians__contents {
+  margin-left: 20px;
+}
+.popular-musicians__content {
+  margin-bottom: 10px;
+  overflow: scroll;
+}
+.popular-musicians__content:first-child {
+  font-size: 20px;
+  font-weight: 400;
+}
+.popular-musicians__content:nth-child(2) {
+  opacity: 0.5;
+  height: 120px;
+}
