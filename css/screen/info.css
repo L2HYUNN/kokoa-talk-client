@@ -1,0 +1,20 @@
+.screen-info__contents {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.screen-info__content {
+  display: flex;
+  font-size: 35px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+}
+.screen-info__content i {
+  margin-right: 15px;
+}
+.screen-info__content a {
+  display: flex;
+}
