@@ -12,6 +12,9 @@
   padding-right: 30px;
   margin-bottom: 40px;
 }
+.screen-info__content:hover {
+  animation: fadeInOut 1s ease-in-out infinite alternate;
+}
 .screen-info__content i {
   margin-right: 15px;
 }

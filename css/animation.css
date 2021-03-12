@@ -23,6 +23,18 @@
     opacity: 0;
     z-index: -10;
   }
+  80% {
+    opacity: 0;
+    z-index: -10;
+  }
+  90% {
+    opacity: 0;
+    z-index: -10;
+  }
+  95% {
+    opacity: 0;
+    z-index: -10;
+  }
   100% {
     opacity: 0;
     z-index: -10;
@@ -69,5 +81,13 @@
   }
   100% {
     transform: scale(2);
+  }
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
   }
 }

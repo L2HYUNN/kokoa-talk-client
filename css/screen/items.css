@@ -1,0 +1,24 @@
+.items {
+  border-top: 2px solid aliceblue;
+}
+.items__main {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.items__title {
+  margin-top: 10px;
+}
+.items__picture img {
+  width: 75px;
+  height: 80px;
+  border-radius: 15px;
+  border: 2px solid aliceblue;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  box-sizing: border-box;
+}
+.items__column {
+  display: flex;
+  margin-bottom: 20px;
+}

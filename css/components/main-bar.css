@@ -1,3 +1,5 @@
+@import "animation.css";
+
 /* main-bar */
 .main-bar {
   margin-top: 30px;
@@ -10,7 +12,20 @@
 .main-bar__right {
   display: flex;
   padding-top: 2px;
+  transition: transform 1s ease-in-out;
 }
 .main-bar__right i {
   margin-left: 10px;
+}
+.main-bar__right .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
+.main-bar__right .fa-music:hover {
+  animation: fadeInOut 1s ease-in-out infinite alternate;
+}
+.main-bar__right .fa-comment-dots:hover {
+  animation: fadeInOut 1s ease-in-out infinite alternate;
+}
+.main-bar__right .fa-th-large:hover {
+  animation: fadeInOut 1s ease-in-out infinite alternate;
 }
