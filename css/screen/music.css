@@ -1,11 +1,6 @@
 @import "animation.css";
 
 /* media query */
-@media screen and (min-width: 501px) {
-  body {
-    display: none;
-  }
-}
 
 /* screen-music */
 .screen-music__content {
